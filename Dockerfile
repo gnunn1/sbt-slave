@@ -1,4 +1,4 @@
-FROM openshift/jenkins-slave-maven-centos7
+FROM openshift/jenkins-slave-base-centos7
 MAINTAINER Gerald Nunn <gnunn@redhat.com>
 
 ENV SBT_VERSION 1.2.6
